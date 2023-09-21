@@ -13,7 +13,7 @@
 <img src="doc/hkust_logo_text.png" alt="Logo" width="90"> 
 
 [ArXiv](https://arxiv.org/abs/2309.11000) | 
-[Poster](doc/AYFRSW_Poster.pdf) | 
+[Poster](doc/YFRSW_Poster.pdf) | 
 [Notebook](prosody_prediction.ipynb) | 
 [Checkpoint](https://huggingface.co/chendelong/ChatGLM-PSP)
 
@@ -27,7 +27,7 @@ We hypothesize that *Large Language Models (LLMs)* with billions of parameters p
 - **Study 2**: We further integrated dialogue response and a wide array of linguistic features using a unified encoding format, and fine-tuned an LLM to learn them jointly.
 
 ## News
-- **2023.09.21**. Welcome to the official repo of our paper *"Towards Joint Modeling of Dialogue Response and Speech Synthesis based on Large Language Model"*! We have released the code, dataset, and the checkpoint. Our paper is available at arXiv! [(arxiv link)](https://arxiv.org/abs/0000.00000)
+- **2023.09.21**. Welcome to the official repo of our paper *"Towards Joint Modeling of Dialogue Response and Speech Synthesis based on Large Language Model"*! We have released the code, dataset, and the checkpoint. Our paper is available at arXiv! [(arxiv link)](https://arxiv.org/abs/2309.11000)
 
 - **2023.05.20**. This project is accepted by [Young Female Researchers in Speech Workshop (YFRSW)](https://sites.google.com/view/yfrsw-2023/home) at [Interspeech 2023](https://www.interspeech2023.org/) for a poster presentation! See the poster [here](doc/YFRSW_Poster.pdf).
 
@@ -122,22 +122,17 @@ We use this dataset to fine-tune ChatGLM2-6B. Note that here we perform full-par
 ### Acknowledgment & Citation
 
 Xinyu Zhou and Delong Chen contributed equally.
+This work is partially supported by National Social Science Fund of China (20&ZD295).
 
 If you find this work useful, please consider citing our paper as:
 
 ```bibtex
-@article{remoteclip,
-  author       = {Fan Liu and
-                  Delong Chen and
-                  Zhangqingyun Guan and
-                  Xiaocong Zhou and
-                  Jiale Zhu and
-                  Jun Zhou},
-  title        = {RemoteCLIP: {A} Vision Language Foundation Model for Remote Sensing},
-  journal      = {CoRR},
-  volume       = {abs/2306.11029},
-  year         = {2023},
-  url          = {https://doi.org/10.48550/arXiv.2306.11029},
-  doi          = {10.48550/arXiv.2306.11029}
+@article{zhou2023joint,
+      title={Towards Joint Modeling of Dialogue Response and Speech Synthesis based on Large Language Model}, 
+      author={Xinyu Zhou and Delong Chen and Yudong Chen},
+      year={2023},
+      eprint={2309.11000},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
