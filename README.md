@@ -27,6 +27,8 @@ We hypothesize that *Large Language Models (LLMs)* with billions of parameters p
 - **Study 2**: We further integrated dialogue response and a wide array of linguistic features using a unified encoding format, and fine-tuned an LLM to learn them jointly.
 
 ## News
+- **2023.10.31**. Our paper is accepted by the 6th International Conference on Natural Language and Speech Processing (ICNLSP 2023)!
+
 - **2023.09.21**. Welcome to the official repo of our paper *"Towards Joint Modeling of Dialogue Response and Speech Synthesis based on Large Language Model"*! We have released the code, dataset, and the checkpoint. Our paper is available at arXiv! [(arxiv link)](https://arxiv.org/abs/2309.11000)
 
 - **2023.05.20**. This project is accepted by [Young Female Researchers in Speech Workshop (YFRSW)](https://sites.google.com/view/yfrsw-2023/home) at [Interspeech 2023](https://www.interspeech2023.org/) for a poster presentation! See the poster [here](doc/YFRSW_Poster.pdf).
